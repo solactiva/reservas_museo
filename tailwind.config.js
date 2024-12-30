@@ -1,4 +1,5 @@
 /** @type {import('tailwindcss').Config} */
+import tailwindcssPrimeui from 'tailwindcss-primeui'
 
 export default {
 	content: [
@@ -9,5 +10,5 @@ export default {
 	theme: {
 		extend: {},
 	},
-	plugins: [require('tailwindcss-primeui')],
+	plugins: [tailwindcssPrimeui],
 }

@@ -13,7 +13,7 @@ export const useEvento = () => {
 
 	const cargarEventos = async () => {
 		const response = await getEventos()
-		eventos.value = response.data
+		eventos.value = response.data.filter(e => e.activo === true)
 	}
 
 	return {

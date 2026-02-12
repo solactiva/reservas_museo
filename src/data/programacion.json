@@ -1,0 +1,86 @@
+[
+	{
+		"_id": "prog-01",
+		"fecha": "2024-09-20",
+		"inicioEvento": "09:00",
+		"evento": {
+			"idEvento": "even-01",
+			"nombre": "Evento 1",
+			"descripcion": "Descripción del evento 1",
+			"duracion": 45,
+			"capacidad": 15,
+			"precios": [
+				{
+					"tipo": "Adulto",
+					"precio": 20
+				},
+				{
+					"tipo": "Niño",
+					"precio": 10
+				},
+				{
+					"tipo": "Extranjero",
+					"precio": 30
+				}
+			]
+		},
+		"reservas": [
+			{
+				"idReserva": "res-01",
+				"cliente": {
+					"idCliente": "cli-01",
+					"nombre": "Juan Perez",
+					"email": "",
+					"telefono": ""
+				},
+				"cantidad": [
+					{
+						"tipo": "Adulto",
+						"cantidad": 2
+					},
+					{
+						"tipo": "Niño",
+						"cantidad": 3
+					}
+				]
+			},
+			{
+				"idReserva": "res-02",
+				"cliente": {
+					"idCliente": "cli-02",
+					"nombre": "Maria Lopez",
+					"email": "",
+					"telefono": ""
+				},
+				"cantidad": [
+					{
+						"tipo": "Extranjero",
+						"cantidad": 2
+					}
+				]
+			},
+			{
+				"idReserva": "res-03",
+				"cliente": {
+					"idCliente": "cli-03",
+					"nombre": "Carlos Gomez",
+					"email": "",
+					"telefono": ""
+				},
+				"cantidad": [
+					{
+						"tipo": "Adulto",
+						"cantidad": 2
+					},
+					{
+						"tipo": "Niño",
+						"cantidad": 1
+					}
+				]
+			}
+		],
+		"spots": 10,
+		"finEvento": "09:45",
+		"activo": true
+	}
+]

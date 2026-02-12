@@ -1,0 +1,50 @@
+[
+	{
+		"_id": "even-01",
+		"nombre": "Evento 1",
+		"descripcion": "Descripción del evento 1",
+		"persistente": false,
+		"duracion": 45,
+		"capacidad": 15,
+		"precios": [
+			{
+				"tipo": "Adulto (Nacional)",
+				"precio": 20
+			},
+			{
+				"tipo": "Niño",
+				"precio": 12
+			},
+			{
+				"tipo": "Adulto (Extranjero)",
+				"precio": 30
+			}
+		],
+		"diasNoActivo": [0],
+		"activo": true
+	},
+	{
+		"_id": "even-02",
+		"nombre": "Evento 2",
+		"descripcion": "Descripción del evento 2",
+		"persistente": true,
+		"duracion": 45,
+		"capacidad": 15,
+		"precios": [
+			{
+				"tipo": "Adulto",
+				"precio": 20
+			},
+			{
+				"tipo": "Niño",
+				"precio": 10
+			},
+			{
+				"tipo": "Extranjero",
+				"precio": 30
+			}
+		],
+		"diasNoActivo": [0, 6],
+		"activo": true
+	}
+]

@@ -1,0 +1,80 @@
+[
+	{
+		"_id": "res-01",
+		"idProg": "prog-01",
+		"cliente": {
+			"idCliente": "cli-01",
+			"nombre": "Juan Perez",
+			"email": "",
+			"telefono": ""
+		},
+		"cantidad": [
+			{
+				"tipo": "Adulto",
+				"cantidad": 2
+			},
+			{
+				"tipo": "Niño",
+				"cantidad": 3
+			},
+			{
+				"tipo": "Extranjero",
+				"cantidad": 0
+			}
+		],
+		"cantidadTotal": 5,
+		"pago": {
+			"total": 80,
+			"comprobante": null
+		},
+		"confirmado": false
+	},
+	{
+		"_id": "res-02",
+		"idProg": "prog-01",
+		"cliente": {
+			"idCliente": "cli-02",
+			"nombre": "Maria Lopez",
+			"email": "",
+			"telefono": ""
+		},
+		"cantidad": [
+			{
+				"tipo": "Extranjero",
+				"cantidad": 2
+			}
+		],
+		"cantidadTotal": 2,
+		"pago": {
+			"total": 60,
+			"comprobante": null
+		},
+		"confirmado": false
+	},
+	{
+		"_id": "res-03",
+		"idProg": "prog-01",
+		"cliente": {
+			"idCliente": "cli-03",
+			"nombre": "Carlos Gomez",
+			"email": "",
+			"telefono": ""
+		},
+		"cantidad": [
+			{
+				"tipo": "Adulto",
+				"cantidad": 2
+			},
+			{
+				"tipo": "Niño",
+				"cantidad": 1
+			}
+		],
+		"cantidadTotal": 3,
+		"pago": {
+			"total": 50,
+			"comprobante": null
+		},
+		"confirmado": false
+	}
+]

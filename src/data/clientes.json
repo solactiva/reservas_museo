@@ -1,0 +1,20 @@
+[
+	{
+		"_id": "cli-01",
+		"nombre": "Juan Perez",
+		"email": "",
+		"telefono": ""
+	},
+	{
+		"_id": "cli-02",
+		"nombre": "Maria Lopez",
+		"email": "",
+		"telefono": ""
+	},
+	{
+		"_id": "cli-03",
+		"nombre": "Carlos Gomez",
+		"email": "",
+		"telefono": ""
+	}
+]

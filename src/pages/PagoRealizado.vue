@@ -9,7 +9,14 @@
 			electrónico
 			<span class="text-xl font-bold italic">{{ visitante.email }}</span
 			>. Si no recibes el correo electrónico, revisa tu carpeta de correo no
-			deseado o comunicate al <span class="text-lg font-bold">72877493</span>
+			deseado. Tu reserva esta en proceso, para validar tu pago de forma segura contactanos al 
+			<a 
+				href="https://wa.me/59172877493?text=Hola%2C%20quiero%20validar%20mi%20reserva" 
+				target="_blank"
+				class="text-lg font-bold text-green-600 hover:text-green-700 underline"
+			>
+				72877493 (WhatsApp)
+			</a>
 		</p>
 	</div>
 	<div class="flex justify-center gap-4 mt-10">

@@ -9,7 +9,7 @@
 			electrónico
 			<span class="text-xl font-bold italic">{{ visitante.email }}</span
 			>. Si no recibes el correo electrónico, revisa tu carpeta de correo no
-			deseado. Tu reserva esta en proceso, para validar tu pago de forma segura contactanos al 
+			deseado. Tu reserva esta en proceso, para validar que el pago de tu reserva se realizó con éxito contactanos al 
 			<a 
 				href="https://wa.me/59172877493?text=Hola%2C%20quiero%20validar%20mi%20reserva" 
 				target="_blank"

@@ -7,7 +7,10 @@
 		<p class="text-center">
 			Tras verificar tu pago, recibirás el detalle en tu email:
 			<span class="text-xl font-bold italic">{{ visitante.email }}</span
-			> (revisa también tu carpeta de spam). Si no registraste un correo o aún no recibes tu comprobante,
+			> (revisa también tu carpeta de spam).
+		</p>
+		<p class="text-center">	
+			Si no registraste un correo o aún no recibes tu comprobante,
 			contáctanos de inmediato para validar tu pago y confirmar tu reserva al 
 			<a 
 				href="https://wa.me/59172877493?text=Hola%2C%20quiero%20validar%20mi%20reserva" 

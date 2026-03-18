@@ -2,14 +2,13 @@
 	<div class="text-center text-9xl my-16">🎉</div>
 	<div class="card">
 		<h3 class="text-3xl text-center mb-7">
-			Gracias, el pago de tu reserva está en proceso de verificación
+			¡¡Gracias!!
 		</h3>
 		<p class="text-center">
-			Una vez confirmada tu reserva, enviaremos el detalle a tu correo
-			electrónico
-			<span class="text-xl font-bold italic">{{ visitante.email }}</span
-			>. Si no recibes el correo electrónico, revisa tu carpeta de correo no
-			deseado. Tu reserva esta en proceso, para validar que el pago de tu reserva se realizó con éxito contactanos al 
+			Hola , <span class="text-xl font-bold italic">{{ visitante.nombre }}</span>:
+		</p>
+		<p class="text-center">
+			Gracias por elegirnos! Recibimos tu solicitud de reserva. Para finalizar tu reserva desbes escribirnos a nuestro canal oficial de Whatsapp aqui:
 			<a 
 				href="https://wa.me/59172877493?text=Hola%2C%20quiero%20validar%20mi%20reserva" 
 				target="_blank"
@@ -17,6 +16,9 @@
 			>
 				72877493 (WhatsApp)
 			</a>
+		</p>
+		<p class="text-cener">
+			Te sugerimos realizar este paso lo antes posible.
 		</p>
 	</div>
 	<div class="flex justify-center gap-4 mt-10">

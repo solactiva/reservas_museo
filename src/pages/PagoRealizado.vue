@@ -2,22 +2,23 @@
 	<div class="text-center text-9xl my-16">🎉</div>
 	<div class="card">
 		<h3 class="text-3xl text-center mb-7">
-			¡¡Gracias!!
+			¡¡Gracias por elegirnos!!
 		</h3>
 		<p class="text-center">
 			Hola , <span class="text-xl font-bold italic">{{ visitante.nombre }}</span>:
 		</p>
 		<p class="text-center">
-			Gracias por elegirnos! Recibimos tu solicitud de reserva. Para finalizar tu reserva desbes escribirnos a nuestro canal oficial de Whatsapp aqui:
+			Recibimos tu solicitud de reserva, para finalizarla debes escribir a nuestro canal oficial de Whatsapp aquí:
+
 			<a 
-				href="https://wa.me/59172877493?text=Hola%2C%20quiero%20validar%20mi%20reserva" 
+				href="https://wa.me/59172877493?text=Hola%2C%20quiero%20finalizar%20mi%20reserva" 
 				target="_blank"
 				class="text-lg font-bold text-green-600 hover:text-green-700 underline"
 			>
 				72877493 (WhatsApp)
 			</a>
 		</p>
-		<p class="text-cener">
+		<p class="text-center">
 			Te sugerimos realizar este paso lo antes posible.
 		</p>
 	</div>
